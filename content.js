@@ -1,7 +1,7 @@
 // LinkedIn Recent Posts Button by jessekhala.com
 // Add Button Function
 function addButton() {
-  var profileHeader = document.querySelector(".pv-top-card-v2-ctas");
+  let profileHeader = document.querySelector(".pv-top-card-v2-ctas");
   if (profileHeader) {
     let button = document.createElement("button");
     button.innerHTML = "Recent Posts";
