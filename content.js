@@ -1,10 +1,14 @@
 // LinkedIn Recent Posts Button by jessekhala.com
 // Add Button Function
-function addRecentPostsButton() {
+function addRecentPostsButton(time = 0) {
   let profileHeader = document.querySelector(".pv-top-card-v2-ctas");
-  if (profileHeader) {
+  if (
+    profileHeader &&
+    document.getElementById("recent-posts-button") === null
+  ) {
     let button = document.createElement("button");
     button.innerHTML = "Recent Posts";
+    button.id = "recent-posts-button";
     button.className =
       "artdeco-button artdeco-button--muted artdeco-button--2 artdeco-button--secondary ember-view";
     button.addEventListener("click", function () {
@@ -13,11 +17,12 @@ function addRecentPostsButton() {
     });
     profileHeader.appendChild(button);
   }
+  setTimeout(() => addRecentPostsButton(time + 100), 100);
 }
 
 // Attach event listeners for the popstate and pushstate events
 window.addEventListener("popstate", addRecentPostsButton);
 window.addEventListener("pushstate", addRecentPostsButton);
 
-// Add the button
+// Add button
 addRecentPostsButton();
