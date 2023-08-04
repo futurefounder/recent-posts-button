@@ -2,7 +2,7 @@
 
 ![https://i.ibb.co/ZK99jRZ/RCB-BG.png](https://i.ibb.co/ZK99jRZ/RCB-BG.png)
 
-Elevate your B2B social media experience with our Recent Posts Button Chrome Extension, developed with vanilla JavaScript.
+Elevate your B2B social media experience on LinkedIn with the Recent Posts Button Chrome Extension, developed with vanilla JavaScript.
 
 This user-friendly extension is designed to enhance your profile pages on B2B social media platforms by integrating a Recent Posts button. This unique feature empowers you to effortlessly access and review the latest posts from any user.
 
