@@ -1,6 +1,8 @@
 ## Recent Posts Button Chrome Extension 
 
-![https://i.ibb.co/ZK99jRZ/RCB-BG.png](https://i.ibb.co/ZK99jRZ/RCB-BG.png)
+![Product Shot](https://i.ibb.co/ZK99jRZ/RCB-BG.png)
+
+![Product Gif](https://github.com/futurefounder/recent-posts-button/blob/main/recent-posts.gif?raw=true)
 
 Elevate your B2B social media experience on LinkedIn with the Recent Posts Button Chrome Extension, developed with vanilla JavaScript.
 
